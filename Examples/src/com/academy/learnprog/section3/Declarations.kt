@@ -1,9 +1,10 @@
-package com.academy.learnprog.declarations
+package com.academy.learnprog.section3
 
 typealias SomeInt = Int
 
 fun main(args: Array<String>) {
     // Value/variable declarations
+    println("Declarations examples")
     var number: Int
     number = 10
     number = 20
@@ -20,13 +21,11 @@ fun main(args: Array<String>) {
         employee2 = Employee("Mike Watson", 150)
     }
 
+    // val employee3: Employee = null // Not work! Cannot assign null to a non-null type
+
     val number3: SomeInt = 50
 
     val names = arrayListOf("John", "Jane", "Mary", 1)
     println(names)
-
-    println("\nDone")
 }
 
-class Employee(var name: String, val id: Int) {
-}
