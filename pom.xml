@@ -4,18 +4,18 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.academy.learnprog</groupId>
-  <artifactId>examples</artifactId>
+  <artifactId>kotlin-udemy</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>examples</name>
+  <name>kotlin-udemy</name>
   <description>Kotlin Udemy Examples</description>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <java.version>1.8</java.version>
-    <kotlin.version>1.2.30</kotlin.version>
+    <kotlin.version>1.2.31</kotlin.version>
   </properties>
 
   <dependencies>
