@@ -1,4 +1,4 @@
-package com.academy.learnprog.section7
+package com.academy.learnprog.section7.collections
 
 fun main(args: Array<String>) {
 

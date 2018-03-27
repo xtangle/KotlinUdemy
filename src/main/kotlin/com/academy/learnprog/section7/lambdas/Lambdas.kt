@@ -1,4 +1,4 @@
-package com.academy.learnprog.section7
+package com.academy.learnprog.section7.lambdas
 
 fun main(args: Array<String>) {
     run { println("I'm in a lambda!") }

@@ -1,4 +1,4 @@
-package com.academy.learnprog.section7
+package com.academy.learnprog.section7.lambdas
 
 fun main(args: Array<String>) {
 
@@ -16,7 +16,7 @@ fun main(args: Array<String>) {
     findByLastName(employees, "Smithson")
     println()
 
-    "Some String".apply someString@ {
+    "Some String".apply someString@{
         "Another String".apply {
             //println(toLowerCase()) // Applies to "Another String"
             println(this@someString.toUpperCase()) // Applies to "Some String"
@@ -60,7 +60,7 @@ fun countTo100() =
     }.toString()
 
 fun findByLastName(employees: List<Employee>, lastName: String) {
-    employees.forEach returnBlock@ {
+    employees.forEach returnBlock@{
         if (it.lastName == lastName) {
             println("Yes, there's an employee with the last name $lastName")
             // return // Returns from both the lambda and the function, a 'non-local return'

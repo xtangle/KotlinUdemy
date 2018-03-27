@@ -74,7 +74,7 @@
         </configuration>
       </plugin>
 
-      <!--Enable to build .jar with Kotlin runtime bundled-->
+      <!--Enable to build .jar file with Kotlin runtime bundled-->
       <!--
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
